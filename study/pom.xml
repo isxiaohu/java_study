@@ -6,9 +6,12 @@
 	<groupId>com.tiger.study</groupId>
 	<artifactId>parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>study-common</module>
+	</modules>
+	<packaging>pom</packaging>
 
-	<name>study</name>
+	<name>parent</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
