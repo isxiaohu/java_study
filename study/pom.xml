@@ -6,9 +6,6 @@
 	<groupId>com.tiger.study</groupId>
 	<artifactId>parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<modules>
-		<module>study-common</module>
-	</modules>
 	<packaging>pom</packaging>
 
 	<name>parent</name>
