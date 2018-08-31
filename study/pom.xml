@@ -6,6 +6,10 @@
 	<groupId>com.tiger.study</groupId>
 	<artifactId>parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<modules>
+		<module>study-common</module>
+		<module>demo1</module>
+	</modules>
 	<packaging>pom</packaging>
 
 	<name>parent</name>
@@ -27,7 +31,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
